@@ -1,7 +1,9 @@
 import axios from "axios";
 
+
+// https://fivestarback-x6vms.ondigitalocean.app/api/movies/top-rated
 const client = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://fivestarback-x6vms.ondigitalocean.app/api",
 });
 
 export default client;
